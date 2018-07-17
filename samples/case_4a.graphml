@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+    <key id="_analyzer" for="node" attr.name="_analyzer" attr.type="string" />
+    <key id="accessType" for="node" attr.name="accessType" attr.type="int" />
+    <key id="accessTypeDesc" for="node" attr.name="accessTypeDesc" attr.type="string" />
+    <key id="category" for="node" attr.name="category" attr.type="string" />
+    <key id="copies" for="node" attr.name="copies" attr.type="int" />
+    <key id="created" for="node" attr.name="created" attr.type="string" />
+    <key id="createdby" for="node" attr.name="createdby" attr.type="string" />
+    <key id="databaseName" for="node" attr.name="databaseName" attr.type="string" />
+    <key id="databaseType" for="node" attr.name="databaseType" attr.type="string" />
+    <key id="description" for="node" attr.name="description" attr.type="string" />
+    <key id="division" for="node" attr.name="division" attr.type="string" />
+    <key id="hostName" for="node" attr.name="hostName" attr.type="string" />
+    <key id="kettleType" for="node" attr.name="kettleType" attr.type="string" />
+    <key id="lastmodified" for="node" attr.name="lastmodified" attr.type="string" />
+    <key id="lastmodifiedby" for="node" attr.name="lastmodifiedby" attr.type="string" />
+    <key id="logicalId" for="node" attr.name="logicalId" attr.type="string" />
+    <key id="name" for="node" attr.name="name" attr.type="string" />
+    <key id="namespace" for="node" attr.name="namespace" attr.type="string" />
+    <key id="parameter_PROCESS_LINEAGE" for="node" attr.name="parameter_PROCESS_LINEAGE" attr.type="string" />
+    <key id="path" for="node" attr.name="path" attr.type="string" />
+    <key id="pluginId" for="node" attr.name="pluginId" attr.type="string" />
+    <key id="port" for="node" attr.name="port" attr.type="string" />
+    <key id="project" for="node" attr.name="project" attr.type="string" />
+    <key id="query" for="node" attr.name="query" attr.type="string" />
+    <key id="schema" for="node" attr.name="schema" attr.type="string" />
+    <key id="shared" for="node" attr.name="shared" attr.type="boolean" />
+    <key id="stepType" for="node" attr.name="stepType" attr.type="string" />
+    <key id="table" for="node" attr.name="table" attr.type="string" />
+    <key id="targetStep" for="node" attr.name="targetStep" attr.type="string" />
+    <key id="truncateTable" for="node" attr.name="truncateTable" attr.type="boolean" />
+    <key id="type" for="node" attr.name="type" attr.type="string" />
+    <key id="userName" for="node" attr.name="userName" attr.type="string" />
+    <key id="virtual" for="node" attr.name="virtual" attr.type="boolean" />
+    <key id="enabled" for="edge" attr.name="enabled" attr.type="boolean" />
+    <key id="text" for="edge" attr.name="text" attr.type="string" />
+    <key id="type" for="edge" attr.name="type" attr.type="string" />
+    <graph id="G" edgedefault="directed">
+        <node id="053e35e2-d9ee-4c52-94a4-857261b75d97">
+            <data key="_analyzer">TableInputStepAnalyzer</data>
+            <data key="category">documentelement</data>
+            <data key="copies">1</data>
+            <data key="logicalId">{"name":"step1:customers_103","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"}</data>
+            <data key="name">step1:customers_103</data>
+            <data key="namespace">{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"}</data>
+            <data key="pluginId">TableInput</data>
+            <data key="stepType">Table input</data>
+            <data key="type">Transformation Step</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="26969a94-2a37-4cad-854e-489c066c2adf">
+            <data key="category">field</data>
+            <data key="kettleType">None</data>
+            <data key="logicalId">{"name":"id2","namespace":{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"_resource_","type":"Database Column"}</data>
+            <data key="name">id2</data>
+            <data key="namespace">{"name":"customers_partial_2","namespace":{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"},"schema":"default","type":"Database Table"}</data>
+            <data key="targetStep">_resource_</data>
+            <data key="type">Database Column</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="4107d77e-6019-4027-bf75-71d87f8d08c0">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"firstname","namespace":{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"_none_","type":"Transformation Stream field"}</data>
+            <data key="name">firstname</data>
+            <data key="namespace">{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"}</data>
+            <data key="targetStep">_none_</data>
+            <data key="type">Transformation Stream field</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="5449a6aa-61a8-4edd-b07a-09698bb871b6">
+            <data key="category">field</data>
+            <data key="kettleType">None</data>
+            <data key="logicalId">{"name":"name2","namespace":{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"_resource_","type":"Database Column"}</data>
+            <data key="name">name2</data>
+            <data key="namespace">{"name":"customers_partial_2","namespace":{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"},"schema":"default","type":"Database Table"}</data>
+            <data key="targetStep">_resource_</data>
+            <data key="type">Database Column</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="57360824-284c-4ab7-a2cb-2ccc079d914a">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"zip","namespace":{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"_none_","type":"Transformation Stream field"}</data>
+            <data key="name">zip</data>
+            <data key="namespace">{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"}</data>
+            <data key="targetStep">_none_</data>
+            <data key="type">Transformation Stream field</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="6cb1ac02-3ec0-424f-b3dc-a9b1d4481da8">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"name","namespace":{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"_none_","type":"Transformation Stream field"}</data>
+            <data key="name">name</data>
+            <data key="namespace">{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"}</data>
+            <data key="targetStep">_none_</data>
+            <data key="type">Transformation Stream field</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="7add38a6-5956-42a6-9073-0ddc9e5cead9">
+            <data key="_analyzer">TableOutputStepAnalyzer</data>
+            <data key="category">documentelement</data>
+            <data key="copies">1</data>
+            <data key="logicalId">{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"}</data>
+            <data key="name">step2:customers_partial_2</data>
+            <data key="namespace">{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"}</data>
+            <data key="pluginId">TableOutput</data>
+            <data key="stepType">Table output</data>
+            <data key="truncateTable">true</data>
+            <data key="type">Transformation Step</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="7b852f7b-6623-4300-974a-4555efecc810">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"zip","namespace":{"name":"step1:customers_103","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"step2:customers_partial_2","type":"Transformation Stream field"}</data>
+            <data key="name">zip</data>
+            <data key="namespace">{"name":"step1:customers_103","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"}</data>
+            <data key="targetStep">step2:customers_partial_2</data>
+            <data key="type">Transformation Stream field</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="86907e33-db20-4bf9-ba53-996b88f5e190">
+            <data key="category">document</data>
+            <data key="created">1530288634438</data>
+            <data key="createdby">sa_hdpptho_qa</data>
+            <data key="lastmodified">1530820355890</data>
+            <data key="lastmodifiedby">lpan</data>
+            <data key="logicalId">{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"}</data>
+            <data key="name">case_4_a_hive_both_not_in_igc_tr</data>
+            <data key="namespace">Pentaho Data Integration</data>
+            <data key="parameter_PROCESS_LINEAGE">{defaultValue=true, description=null, value=true}</data>
+            <data key="path">/case_4_a_hive_both_not_in_igc_tr.ktr</data>
+            <data key="type">Transformation</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="9bca1410-2425-48de-930e-093b94d34c16">
+            <data key="category">field</data>
+            <data key="kettleType">None</data>
+            <data key="logicalId">{"name":"zip2","namespace":{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"_resource_","type":"Database Column"}</data>
+            <data key="name">zip2</data>
+            <data key="namespace">{"name":"customers_partial_2","namespace":{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"},"schema":"default","type":"Database Table"}</data>
+            <data key="targetStep">_resource_</data>
+            <data key="type">Database Column</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="Pentaho Data Integration">
+            <data key="category">repository</data>
+            <data key="logicalId">{"name":"Pentaho Data Integration","namespace":"","type":"Locator"}</data>
+            <data key="name">Pentaho Data Integration</data>
+            <data key="type">Locator</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="a33d96ea-d558-4e80-ad78-a4b992abf199">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"name","namespace":{"name":"_resource_","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"step1:customers_103","type":"Database Column"}</data>
+            <data key="name">name</data>
+            <data key="namespace">{"namespace":{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"},"query":"SELECT id,name,firstname,zip FROM customers_103","type":"SQL Query"}</data>
+            <data key="targetStep">step1:customers_103</data>
+            <data key="type">Database Column</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="a981fc45-4d2d-4e4b-b577-bc58da6538c3">
+            <data key="category">field</data>
+            <data key="kettleType">None</data>
+            <data key="logicalId">{"name":"firstname2","namespace":{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"_resource_","type":"Database Column"}</data>
+            <data key="name">firstname2</data>
+            <data key="namespace">{"name":"customers_partial_2","namespace":{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"},"schema":"default","type":"Database Table"}</data>
+            <data key="targetStep">_resource_</data>
+            <data key="type">Database Column</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="b4c3bff6-3687-47a3-8b01-c79257916d10">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"id","namespace":{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"_none_","type":"Transformation Stream field"}</data>
+            <data key="name">id</data>
+            <data key="namespace">{"name":"step2:customers_partial_2","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"}</data>
+            <data key="targetStep">_none_</data>
+            <data key="type">Transformation Stream field</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="c6adef37-50b1-4a89-9a2c-5dbecf59f9d7">
+            <data key="category">other</data>
+            <data key="logicalId">{"namespace":{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"},"query":"SELECT id,name,firstname,zip FROM customers_103","type":"SQL Query"}</data>
+            <data key="name">SQL</data>
+            <data key="namespace">{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"}</data>
+            <data key="query">SELECT id,name,firstname,zip FROM customers_103</data>
+            <data key="type">SQL Query</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="ce2cdccb-be80-4453-b6eb-cc3eb0880e19">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"firstname","namespace":{"name":"_resource_","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"step1:customers_103","type":"Database Column"}</data>
+            <data key="name">firstname</data>
+            <data key="namespace">{"namespace":{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"},"query":"SELECT id,name,firstname,zip FROM customers_103","type":"SQL Query"}</data>
+            <data key="targetStep">step1:customers_103</data>
+            <data key="type">Database Column</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="d5882557-2d5a-47da-828e-f978f924e7df">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"name","namespace":{"name":"step1:customers_103","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"step2:customers_partial_2","type":"Transformation Stream field"}</data>
+            <data key="name">name</data>
+            <data key="namespace">{"name":"step1:customers_103","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"}</data>
+            <data key="targetStep">step2:customers_partial_2</data>
+            <data key="type">Transformation Stream field</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="d5afa0e1-5609-4441-8a96-01f90066d88d">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"id","namespace":{"name":"step1:customers_103","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"step2:customers_partial_2","type":"Transformation Stream field"}</data>
+            <data key="name">id</data>
+            <data key="namespace">{"name":"step1:customers_103","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"}</data>
+            <data key="targetStep">step2:customers_partial_2</data>
+            <data key="type">Transformation Stream field</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="e05397a1-a983-4d00-90eb-985ddda37017">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"id","namespace":{"name":"_resource_","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"step1:customers_103","type":"Database Column"}</data>
+            <data key="name">id</data>
+            <data key="namespace">{"namespace":{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"},"query":"SELECT id,name,firstname,zip FROM customers_103","type":"SQL Query"}</data>
+            <data key="targetStep">step1:customers_103</data>
+            <data key="type">Database Column</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="e27eb0ba-c52d-4313-99c2-43bf58409219">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"zip","namespace":{"name":"_resource_","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"step1:customers_103","type":"Database Column"}</data>
+            <data key="name">zip</data>
+            <data key="namespace">{"namespace":{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"},"query":"SELECT id,name,firstname,zip FROM customers_103","type":"SQL Query"}</data>
+            <data key="targetStep">step1:customers_103</data>
+            <data key="type">Database Column</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="entity">
+            <data key="description">Data lineage is tracing the path that data has traveled upstream from its destination, through Pentaho systems and artifacts as well as external systems and artifacts.</data>
+            <data key="division">Engineering</data>
+            <data key="name">METAVERSE</data>
+            <data key="project">Pentaho Data Lineage</data>
+            <data key="type">Root_Entity</data>
+        </node>
+        <node id="entity_Database Column">
+            <data key="name">Database Column</data>
+            <data key="type">Entity</data>
+        </node>
+        <node id="entity_Database Connection">
+            <data key="name">Database Connection</data>
+            <data key="type">Entity</data>
+        </node>
+        <node id="entity_Database Table">
+            <data key="name">Database Table</data>
+            <data key="type">Entity</data>
+        </node>
+        <node id="entity_External Connection">
+            <data key="name">External Connection</data>
+            <data key="type">Entity</data>
+        </node>
+        <node id="entity_Transformation">
+            <data key="description">Pentaho Data Integration</data>
+            <data key="name">Transformation</data>
+            <data key="type">Entity</data>
+        </node>
+        <node id="entity_Transformation Step">
+            <data key="name">Transformation Step</data>
+            <data key="type">Entity</data>
+        </node>
+        <node id="entity_Transformation Stream field">
+            <data key="name">Transformation Stream field</data>
+            <data key="type">Entity</data>
+        </node>
+        <node id="f76a8f5d-cb29-434b-aca2-0bc7b21ab6d5">
+            <data key="accessType">0</data>
+            <data key="accessTypeDesc">Native</data>
+            <data key="category">datasource</data>
+            <data key="databaseName">default</data>
+            <data key="databaseType">Hadoop Hive 2</data>
+            <data key="hostName">encbluhdpadm04.uat.bmocm.com</data>
+            <data key="logicalId">{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"}</data>
+            <data key="name">Hive2 UAT</data>
+            <data key="port">10000</data>
+            <data key="shared">false</data>
+            <data key="type">Database Connection</data>
+            <data key="userName">lpan</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="f886d2f2-593d-4a5a-b0b0-cc1a4bd12063">
+            <data key="category">collection</data>
+            <data key="logicalId">{"name":"customers_partial_2","namespace":{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"},"schema":"default","type":"Database Table"}</data>
+            <data key="name">customers_partial_2</data>
+            <data key="namespace">{"accessTypeDesc":"Native","databaseName":"default","hostName":"encbluhdpadm04.uat.bmocm.com","port":"10000","type":"Database Connection","userName":"lpan"}</data>
+            <data key="schema">default</data>
+            <data key="table">customers_partial_2</data>
+            <data key="type">Database Table</data>
+            <data key="virtual">false</data>
+        </node>
+        <node id="fb72007b-3ca4-456e-a345-5d9ac62c9a37">
+            <data key="category">field</data>
+            <data key="kettleType">String</data>
+            <data key="logicalId">{"name":"firstname","namespace":{"name":"step1:customers_103","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"},"targetStep":"step2:customers_partial_2","type":"Transformation Stream field"}</data>
+            <data key="name">firstname</data>
+            <data key="namespace">{"name":"step1:customers_103","namespace":{"namespace":"Pentaho Data Integration","path":"\/case_4_a_hive_both_not_in_igc_tr.ktr","type":"Transformation"},"type":"Transformation Step"}</data>
+            <data key="targetStep">step2:customers_partial_2</data>
+            <data key="type">Transformation Stream field</data>
+            <data key="virtual">false</data>
+        </node>
+        <edge id="053e35e2-d9ee-4c52-94a4-857261b75d97~hops_to~7add38a6-5956-42a6-9073-0ddc9e5cead9" source="053e35e2-d9ee-4c52-94a4-857261b75d97" target="7add38a6-5956-42a6-9073-0ddc9e5cead9" label="hops_to">
+            <data key="enabled">true</data>
+            <data key="text">hops_to</data>
+            <data key="type">target</data>
+        </edge>
+        <edge id="053e35e2-d9ee-4c52-94a4-857261b75d97~outputs~7b852f7b-6623-4300-974a-4555efecc810" source="053e35e2-d9ee-4c52-94a4-857261b75d97" target="7b852f7b-6623-4300-974a-4555efecc810" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="053e35e2-d9ee-4c52-94a4-857261b75d97~outputs~d5882557-2d5a-47da-828e-f978f924e7df" source="053e35e2-d9ee-4c52-94a4-857261b75d97" target="d5882557-2d5a-47da-828e-f978f924e7df" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="053e35e2-d9ee-4c52-94a4-857261b75d97~outputs~d5afa0e1-5609-4441-8a96-01f90066d88d" source="053e35e2-d9ee-4c52-94a4-857261b75d97" target="d5afa0e1-5609-4441-8a96-01f90066d88d" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="053e35e2-d9ee-4c52-94a4-857261b75d97~outputs~fb72007b-3ca4-456e-a345-5d9ac62c9a37" source="053e35e2-d9ee-4c52-94a4-857261b75d97" target="fb72007b-3ca4-456e-a345-5d9ac62c9a37" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="7add38a6-5956-42a6-9073-0ddc9e5cead9~outputs~26969a94-2a37-4cad-854e-489c066c2adf" source="7add38a6-5956-42a6-9073-0ddc9e5cead9" target="26969a94-2a37-4cad-854e-489c066c2adf" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="7add38a6-5956-42a6-9073-0ddc9e5cead9~outputs~4107d77e-6019-4027-bf75-71d87f8d08c0" source="7add38a6-5956-42a6-9073-0ddc9e5cead9" target="4107d77e-6019-4027-bf75-71d87f8d08c0" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="7add38a6-5956-42a6-9073-0ddc9e5cead9~outputs~5449a6aa-61a8-4edd-b07a-09698bb871b6" source="7add38a6-5956-42a6-9073-0ddc9e5cead9" target="5449a6aa-61a8-4edd-b07a-09698bb871b6" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="7add38a6-5956-42a6-9073-0ddc9e5cead9~outputs~57360824-284c-4ab7-a2cb-2ccc079d914a" source="7add38a6-5956-42a6-9073-0ddc9e5cead9" target="57360824-284c-4ab7-a2cb-2ccc079d914a" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="7add38a6-5956-42a6-9073-0ddc9e5cead9~outputs~6cb1ac02-3ec0-424f-b3dc-a9b1d4481da8" source="7add38a6-5956-42a6-9073-0ddc9e5cead9" target="6cb1ac02-3ec0-424f-b3dc-a9b1d4481da8" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="7add38a6-5956-42a6-9073-0ddc9e5cead9~outputs~9bca1410-2425-48de-930e-093b94d34c16" source="7add38a6-5956-42a6-9073-0ddc9e5cead9" target="9bca1410-2425-48de-930e-093b94d34c16" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="7add38a6-5956-42a6-9073-0ddc9e5cead9~outputs~a981fc45-4d2d-4e4b-b577-bc58da6538c3" source="7add38a6-5956-42a6-9073-0ddc9e5cead9" target="a981fc45-4d2d-4e4b-b577-bc58da6538c3" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="7add38a6-5956-42a6-9073-0ddc9e5cead9~outputs~b4c3bff6-3687-47a3-8b01-c79257916d10" source="7add38a6-5956-42a6-9073-0ddc9e5cead9" target="b4c3bff6-3687-47a3-8b01-c79257916d10" label="outputs">
+            <data key="text">outputs</data>
+        </edge>
+        <edge id="7add38a6-5956-42a6-9073-0ddc9e5cead9~writesto~f886d2f2-593d-4a5a-b0b0-cc1a4bd12063" source="7add38a6-5956-42a6-9073-0ddc9e5cead9" target="f886d2f2-593d-4a5a-b0b0-cc1a4bd12063" label="writesto">
+            <data key="text">writesto</data>
+        </edge>
+        <edge id="7b852f7b-6623-4300-974a-4555efecc810~derives~57360824-284c-4ab7-a2cb-2ccc079d914a" source="7b852f7b-6623-4300-974a-4555efecc810" target="57360824-284c-4ab7-a2cb-2ccc079d914a" label="derives">
+            <data key="text">derives</data>
+        </edge>
+        <edge id="7b852f7b-6623-4300-974a-4555efecc810~inputs~7add38a6-5956-42a6-9073-0ddc9e5cead9" source="7b852f7b-6623-4300-974a-4555efecc810" target="7add38a6-5956-42a6-9073-0ddc9e5cead9" label="inputs">
+            <data key="text">inputs</data>
+        </edge>
+        <edge id="7b852f7b-6623-4300-974a-4555efecc810~populates~9bca1410-2425-48de-930e-093b94d34c16" source="7b852f7b-6623-4300-974a-4555efecc810" target="9bca1410-2425-48de-930e-093b94d34c16" label="populates">
+            <data key="text">populates</data>
+        </edge>
+        <edge id="86907e33-db20-4bf9-ba53-996b88f5e190~contains~053e35e2-d9ee-4c52-94a4-857261b75d97" source="86907e33-db20-4bf9-ba53-996b88f5e190" target="053e35e2-d9ee-4c52-94a4-857261b75d97" label="contains">
+            <data key="text">contains</data>
+        </edge>
+        <edge id="86907e33-db20-4bf9-ba53-996b88f5e190~contains~7add38a6-5956-42a6-9073-0ddc9e5cead9" source="86907e33-db20-4bf9-ba53-996b88f5e190" target="7add38a6-5956-42a6-9073-0ddc9e5cead9" label="contains">
+            <data key="text">contains</data>
+        </edge>
+        <edge id="Pentaho Data Integration~contains~86907e33-db20-4bf9-ba53-996b88f5e190" source="Pentaho Data Integration" target="86907e33-db20-4bf9-ba53-996b88f5e190" label="contains">
+            <data key="text">contains</data>
+        </edge>
+        <edge id="a33d96ea-d558-4e80-ad78-a4b992abf199~inputs~053e35e2-d9ee-4c52-94a4-857261b75d97" source="a33d96ea-d558-4e80-ad78-a4b992abf199" target="053e35e2-d9ee-4c52-94a4-857261b75d97" label="inputs">
+            <data key="text">inputs</data>
+        </edge>
+        <edge id="a33d96ea-d558-4e80-ad78-a4b992abf199~populates~d5882557-2d5a-47da-828e-f978f924e7df" source="a33d96ea-d558-4e80-ad78-a4b992abf199" target="d5882557-2d5a-47da-828e-f978f924e7df" label="populates">
+            <data key="text">populates</data>
+        </edge>
+        <edge id="c6adef37-50b1-4a89-9a2c-5dbecf59f9d7~contains~a33d96ea-d558-4e80-ad78-a4b992abf199" source="c6adef37-50b1-4a89-9a2c-5dbecf59f9d7" target="a33d96ea-d558-4e80-ad78-a4b992abf199" label="contains">
+            <data key="text">contains</data>
+        </edge>
+        <edge id="c6adef37-50b1-4a89-9a2c-5dbecf59f9d7~contains~ce2cdccb-be80-4453-b6eb-cc3eb0880e19" source="c6adef37-50b1-4a89-9a2c-5dbecf59f9d7" target="ce2cdccb-be80-4453-b6eb-cc3eb0880e19" label="contains">
+            <data key="text">contains</data>
+        </edge>
+        <edge id="c6adef37-50b1-4a89-9a2c-5dbecf59f9d7~contains~e05397a1-a983-4d00-90eb-985ddda37017" source="c6adef37-50b1-4a89-9a2c-5dbecf59f9d7" target="e05397a1-a983-4d00-90eb-985ddda37017" label="contains">
+            <data key="text">contains</data>
+        </edge>
+        <edge id="c6adef37-50b1-4a89-9a2c-5dbecf59f9d7~contains~e27eb0ba-c52d-4313-99c2-43bf58409219" source="c6adef37-50b1-4a89-9a2c-5dbecf59f9d7" target="e27eb0ba-c52d-4313-99c2-43bf58409219" label="contains">
+            <data key="text">contains</data>
+        </edge>
+        <edge id="c6adef37-50b1-4a89-9a2c-5dbecf59f9d7~isreadby~053e35e2-d9ee-4c52-94a4-857261b75d97" source="c6adef37-50b1-4a89-9a2c-5dbecf59f9d7" target="053e35e2-d9ee-4c52-94a4-857261b75d97" label="isreadby">
+            <data key="text">isreadby</data>
+        </edge>
+        <edge id="ce2cdccb-be80-4453-b6eb-cc3eb0880e19~inputs~053e35e2-d9ee-4c52-94a4-857261b75d97" source="ce2cdccb-be80-4453-b6eb-cc3eb0880e19" target="053e35e2-d9ee-4c52-94a4-857261b75d97" label="inputs">
+            <data key="text">inputs</data>
+        </edge>
+        <edge id="ce2cdccb-be80-4453-b6eb-cc3eb0880e19~populates~fb72007b-3ca4-456e-a345-5d9ac62c9a37" source="ce2cdccb-be80-4453-b6eb-cc3eb0880e19" target="fb72007b-3ca4-456e-a345-5d9ac62c9a37" label="populates">
+            <data key="text">populates</data>
+        </edge>
+        <edge id="d5882557-2d5a-47da-828e-f978f924e7df~derives~6cb1ac02-3ec0-424f-b3dc-a9b1d4481da8" source="d5882557-2d5a-47da-828e-f978f924e7df" target="6cb1ac02-3ec0-424f-b3dc-a9b1d4481da8" label="derives">
+            <data key="text">derives</data>
+        </edge>
+        <edge id="d5882557-2d5a-47da-828e-f978f924e7df~inputs~7add38a6-5956-42a6-9073-0ddc9e5cead9" source="d5882557-2d5a-47da-828e-f978f924e7df" target="7add38a6-5956-42a6-9073-0ddc9e5cead9" label="inputs">
+            <data key="text">inputs</data>
+        </edge>
+        <edge id="d5882557-2d5a-47da-828e-f978f924e7df~populates~5449a6aa-61a8-4edd-b07a-09698bb871b6" source="d5882557-2d5a-47da-828e-f978f924e7df" target="5449a6aa-61a8-4edd-b07a-09698bb871b6" label="populates">
+            <data key="text">populates</data>
+        </edge>
+        <edge id="d5afa0e1-5609-4441-8a96-01f90066d88d~derives~b4c3bff6-3687-47a3-8b01-c79257916d10" source="d5afa0e1-5609-4441-8a96-01f90066d88d" target="b4c3bff6-3687-47a3-8b01-c79257916d10" label="derives">
+            <data key="text">derives</data>
+        </edge>
+        <edge id="d5afa0e1-5609-4441-8a96-01f90066d88d~inputs~7add38a6-5956-42a6-9073-0ddc9e5cead9" source="d5afa0e1-5609-4441-8a96-01f90066d88d" target="7add38a6-5956-42a6-9073-0ddc9e5cead9" label="inputs">
+            <data key="text">inputs</data>
+        </edge>
+        <edge id="d5afa0e1-5609-4441-8a96-01f90066d88d~populates~26969a94-2a37-4cad-854e-489c066c2adf" source="d5afa0e1-5609-4441-8a96-01f90066d88d" target="26969a94-2a37-4cad-854e-489c066c2adf" label="populates">
+            <data key="text">populates</data>
+        </edge>
+        <edge id="e05397a1-a983-4d00-90eb-985ddda37017~inputs~053e35e2-d9ee-4c52-94a4-857261b75d97" source="e05397a1-a983-4d00-90eb-985ddda37017" target="053e35e2-d9ee-4c52-94a4-857261b75d97" label="inputs">
+            <data key="text">inputs</data>
+        </edge>
+        <edge id="e05397a1-a983-4d00-90eb-985ddda37017~populates~d5afa0e1-5609-4441-8a96-01f90066d88d" source="e05397a1-a983-4d00-90eb-985ddda37017" target="d5afa0e1-5609-4441-8a96-01f90066d88d" label="populates">
+            <data key="text">populates</data>
+        </edge>
+        <edge id="e27eb0ba-c52d-4313-99c2-43bf58409219~inputs~053e35e2-d9ee-4c52-94a4-857261b75d97" source="e27eb0ba-c52d-4313-99c2-43bf58409219" target="053e35e2-d9ee-4c52-94a4-857261b75d97" label="inputs">
+            <data key="text">inputs</data>
+        </edge>
+        <edge id="e27eb0ba-c52d-4313-99c2-43bf58409219~populates~7b852f7b-6623-4300-974a-4555efecc810" source="e27eb0ba-c52d-4313-99c2-43bf58409219" target="7b852f7b-6623-4300-974a-4555efecc810" label="populates">
+            <data key="text">populates</data>
+        </edge>
+        <edge id="entity_Database Column~typeconcept~26969a94-2a37-4cad-854e-489c066c2adf" source="entity_Database Column" target="26969a94-2a37-4cad-854e-489c066c2adf" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Database Column~typeconcept~5449a6aa-61a8-4edd-b07a-09698bb871b6" source="entity_Database Column" target="5449a6aa-61a8-4edd-b07a-09698bb871b6" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Database Column~typeconcept~9bca1410-2425-48de-930e-093b94d34c16" source="entity_Database Column" target="9bca1410-2425-48de-930e-093b94d34c16" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Database Column~typeconcept~a33d96ea-d558-4e80-ad78-a4b992abf199" source="entity_Database Column" target="a33d96ea-d558-4e80-ad78-a4b992abf199" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Database Column~typeconcept~a981fc45-4d2d-4e4b-b577-bc58da6538c3" source="entity_Database Column" target="a981fc45-4d2d-4e4b-b577-bc58da6538c3" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Database Column~typeconcept~ce2cdccb-be80-4453-b6eb-cc3eb0880e19" source="entity_Database Column" target="ce2cdccb-be80-4453-b6eb-cc3eb0880e19" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Database Column~typeconcept~e05397a1-a983-4d00-90eb-985ddda37017" source="entity_Database Column" target="e05397a1-a983-4d00-90eb-985ddda37017" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Database Column~typeconcept~e27eb0ba-c52d-4313-99c2-43bf58409219" source="entity_Database Column" target="e27eb0ba-c52d-4313-99c2-43bf58409219" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Database Connection~typeconcept~f76a8f5d-cb29-434b-aca2-0bc7b21ab6d5" source="entity_Database Connection" target="f76a8f5d-cb29-434b-aca2-0bc7b21ab6d5" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Database Table~typeconcept~f886d2f2-593d-4a5a-b0b0-cc1a4bd12063" source="entity_Database Table" target="f886d2f2-593d-4a5a-b0b0-cc1a4bd12063" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_External Connection~parentconcept~entity_Database Connection" source="entity_External Connection" target="entity_Database Connection" label="parentconcept">
+            <data key="text">parentconcept</data>
+        </edge>
+        <edge id="entity_Transformation Step~containsconcept~entity_Transformation Stream field" source="entity_Transformation Step" target="entity_Transformation Stream field" label="containsconcept">
+            <data key="text">containsconcept</data>
+        </edge>
+        <edge id="entity_Transformation Step~typeconcept~053e35e2-d9ee-4c52-94a4-857261b75d97" source="entity_Transformation Step" target="053e35e2-d9ee-4c52-94a4-857261b75d97" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Transformation Step~typeconcept~7add38a6-5956-42a6-9073-0ddc9e5cead9" source="entity_Transformation Step" target="7add38a6-5956-42a6-9073-0ddc9e5cead9" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Transformation Stream field~typeconcept~4107d77e-6019-4027-bf75-71d87f8d08c0" source="entity_Transformation Stream field" target="4107d77e-6019-4027-bf75-71d87f8d08c0" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Transformation Stream field~typeconcept~57360824-284c-4ab7-a2cb-2ccc079d914a" source="entity_Transformation Stream field" target="57360824-284c-4ab7-a2cb-2ccc079d914a" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Transformation Stream field~typeconcept~6cb1ac02-3ec0-424f-b3dc-a9b1d4481da8" source="entity_Transformation Stream field" target="6cb1ac02-3ec0-424f-b3dc-a9b1d4481da8" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Transformation Stream field~typeconcept~7b852f7b-6623-4300-974a-4555efecc810" source="entity_Transformation Stream field" target="7b852f7b-6623-4300-974a-4555efecc810" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Transformation Stream field~typeconcept~b4c3bff6-3687-47a3-8b01-c79257916d10" source="entity_Transformation Stream field" target="b4c3bff6-3687-47a3-8b01-c79257916d10" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Transformation Stream field~typeconcept~d5882557-2d5a-47da-828e-f978f924e7df" source="entity_Transformation Stream field" target="d5882557-2d5a-47da-828e-f978f924e7df" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Transformation Stream field~typeconcept~d5afa0e1-5609-4441-8a96-01f90066d88d" source="entity_Transformation Stream field" target="d5afa0e1-5609-4441-8a96-01f90066d88d" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Transformation Stream field~typeconcept~fb72007b-3ca4-456e-a345-5d9ac62c9a37" source="entity_Transformation Stream field" target="fb72007b-3ca4-456e-a345-5d9ac62c9a37" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity_Transformation~containsconcept~entity_Transformation Step" source="entity_Transformation" target="entity_Transformation Step" label="containsconcept">
+            <data key="text">containsconcept</data>
+        </edge>
+        <edge id="entity_Transformation~typeconcept~86907e33-db20-4bf9-ba53-996b88f5e190" source="entity_Transformation" target="86907e33-db20-4bf9-ba53-996b88f5e190" label="typeconcept">
+            <data key="text">typeconcept</data>
+        </edge>
+        <edge id="entity~parentconcept~entity_Database Column" source="entity" target="entity_Database Column" label="parentconcept">
+            <data key="text">parentconcept</data>
+        </edge>
+        <edge id="entity~parentconcept~entity_Database Table" source="entity" target="entity_Database Table" label="parentconcept">
+            <data key="text">parentconcept</data>
+        </edge>
+        <edge id="entity~parentconcept~entity_External Connection" source="entity" target="entity_External Connection" label="parentconcept">
+            <data key="text">parentconcept</data>
+        </edge>
+        <edge id="entity~parentconcept~entity_Transformation" source="entity" target="entity_Transformation" label="parentconcept">
+            <data key="text">parentconcept</data>
+        </edge>
+        <edge id="f76a8f5d-cb29-434b-aca2-0bc7b21ab6d5~dependencyof~053e35e2-d9ee-4c52-94a4-857261b75d97" source="f76a8f5d-cb29-434b-aca2-0bc7b21ab6d5" target="053e35e2-d9ee-4c52-94a4-857261b75d97" label="dependencyof">
+            <data key="text">dependencyof</data>
+        </edge>
+        <edge id="f76a8f5d-cb29-434b-aca2-0bc7b21ab6d5~dependencyof~7add38a6-5956-42a6-9073-0ddc9e5cead9" source="f76a8f5d-cb29-434b-aca2-0bc7b21ab6d5" target="7add38a6-5956-42a6-9073-0ddc9e5cead9" label="dependencyof">
+            <data key="text">dependencyof</data>
+        </edge>
+        <edge id="f886d2f2-593d-4a5a-b0b0-cc1a4bd12063~contains~26969a94-2a37-4cad-854e-489c066c2adf" source="f886d2f2-593d-4a5a-b0b0-cc1a4bd12063" target="26969a94-2a37-4cad-854e-489c066c2adf" label="contains">
+            <data key="text">contains</data>
+        </edge>
+        <edge id="f886d2f2-593d-4a5a-b0b0-cc1a4bd12063~contains~5449a6aa-61a8-4edd-b07a-09698bb871b6" source="f886d2f2-593d-4a5a-b0b0-cc1a4bd12063" target="5449a6aa-61a8-4edd-b07a-09698bb871b6" label="contains">
+            <data key="text">contains</data>
+        </edge>
+        <edge id="f886d2f2-593d-4a5a-b0b0-cc1a4bd12063~contains~9bca1410-2425-48de-930e-093b94d34c16" source="f886d2f2-593d-4a5a-b0b0-cc1a4bd12063" target="9bca1410-2425-48de-930e-093b94d34c16" label="contains">
+            <data key="text">contains</data>
+        </edge>
+        <edge id="f886d2f2-593d-4a5a-b0b0-cc1a4bd12063~contains~a981fc45-4d2d-4e4b-b577-bc58da6538c3" source="f886d2f2-593d-4a5a-b0b0-cc1a4bd12063" target="a981fc45-4d2d-4e4b-b577-bc58da6538c3" label="contains">
+            <data key="text">contains</data>
+        </edge>
+        <edge id="fb72007b-3ca4-456e-a345-5d9ac62c9a37~derives~4107d77e-6019-4027-bf75-71d87f8d08c0" source="fb72007b-3ca4-456e-a345-5d9ac62c9a37" target="4107d77e-6019-4027-bf75-71d87f8d08c0" label="derives">
+            <data key="text">derives</data>
+        </edge>
+        <edge id="fb72007b-3ca4-456e-a345-5d9ac62c9a37~inputs~7add38a6-5956-42a6-9073-0ddc9e5cead9" source="fb72007b-3ca4-456e-a345-5d9ac62c9a37" target="7add38a6-5956-42a6-9073-0ddc9e5cead9" label="inputs">
+            <data key="text">inputs</data>
+        </edge>
+        <edge id="fb72007b-3ca4-456e-a345-5d9ac62c9a37~populates~a981fc45-4d2d-4e4b-b577-bc58da6538c3" source="fb72007b-3ca4-456e-a345-5d9ac62c9a37" target="a981fc45-4d2d-4e4b-b577-bc58da6538c3" label="populates">
+            <data key="text">populates</data>
+        </edge>
+    </graph>
+</graphml>
